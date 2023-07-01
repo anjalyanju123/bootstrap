@@ -11,8 +11,9 @@
   }
       .home img{
          width: 400px;
-         height: 570px;
+         height: 560px;
          margin-left: -90%;
+         margin-bottom: 13px;
       }
      .home3{
       width: 470px;
@@ -44,8 +45,39 @@
      }
      .second{
       margin-top: 100px;
+      margin-bottom: 60px;
      }
-     
+     .card
+    {
+      text-align: center;
+    }
+    .card a{
+      color: black;
+      text-decoration: none;
+    }
+    .card img{
+      margin-left: 70px;
+    }
+    .product{
+        border-bottom: 2px solid blue;
+    }
+    .heading{
+      margin-left: 80px;
+    }
+    .heading h1{
+      font-family: serif;
+      font-weight: bold;
+    }
+    .imgOverlay:hover{
+      background: rgba(255,255,255,0.5);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 30px 5px;
+      transform: translateY(30px);
+      transition: all .48s ease;
+    }
     </style>
 </head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -100,7 +132,7 @@
          </div>
       </div>
 <div class="row second mt-4">
-  <div class="col-lg-4 me-0">
+  <div class="col-lg-4 ">
 <img class="img-fluid" src="../images/hero-slide1.png.webp" alt="image2">
   </div>
 <div class="col-lg-4">
@@ -109,11 +141,78 @@
 <div class="col-lg-4">
   <img class="img-fluid" src="../images/hero-slide3.png.webp" alt="image4">
 </div>
-
-
-
 </div>
-
+    <div class="heading">
+      <p>Popular Item in the market</p>
+      <h1>Trending <span class="product">Product</span></h1>
+    </div>
+        <div class="row third">
+            <div class="col-lg-4">
+              <div class="card ms-5">
+                <img src="../images/product1.png.webp" width="300px"  class="img-fluid" alt="product1">
+                <ul type="none" class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                  </ul>
+                <div class="card-body">
+                  <p>Accessories</p>
+                  <h4 class="card-title"><a href="single-product.html">Quartz Belt Watch</a> </h4>
+                  <p class="card-text"><small class="text-muted">$150</small></p>
+                </div>
+              </div>
+             </div>
+            <div class="col-lg-4">
+               <div class="card ms-5">
+                <img src="../images/product2.png.webp" width="300px"  class="img-fluid" alt="product2">
+                <div class="card-body">
+                  <p>Beauty</p>
+                  <h4 class="card-title"><a href="single-product.html">Women Freshwash</a> </h4>
+                  <p class="card-text"><small class="text-muted">$580</small></p>
+                </div>
+              </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card ms-5">
+                  <img src="../images/product5.png.webp" width="300px"  class="img-fluid" alt="product3">
+                  <div class="card-body">
+                    <p>Accessories</p>
+                    <h4 class="card-title"><a href="single-product.html">Man Office Bag</a></h4>
+                    <p class="card-text"><small class="text-muted">$580</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card ms-5">
+                  <img src="../images/product4.png.webp" width="300px"  class="img-fluid" alt="product4">
+                  <div class="card-body">
+                    <p>Beauty</p>
+                    <h4 class="card-title"><a href="single-product.html">Women Freshwash</a></h4>
+                    <p class="card-text"><small class="text-muted">$180</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card ms-5">
+                  <img src="../images/product6.png.webp" width="300px"  class="img-fluid" alt="product5">
+                  <div class="card-body">
+                  <p>Kids Toy</p>
+                <h4 class="card-title"><a href="single-product.html">Charging Car</a></h4>
+                <p class="card-text"><small class="text-muted">$180</small></p>
+              </div>
+            </div>
+              </div>
+              <div class="col-lg-4">
+                 <div class="card ms-5">
+                  <img src="../images/product7.png.webp" width="300px"  class="img-fluid" alt="product6">
+                  <div class="card-body">
+                    <p>Accessories</p>
+                <h4 class="card-title"><a href="single-product.html">Blutooth Speaker</a></h4>
+                <p class="card-text"><small class="text-muted">$180</small></p>
+              </div>
+            </div>
+              </div>
+         </div>
 
 
 
