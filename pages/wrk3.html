@@ -8,7 +8,6 @@
     <style>
       .dashboard{
         background-color: black;
-        position: fixed;
       }
       .second{
         margin-top: 30px;
@@ -21,11 +20,32 @@
         height: 40px;
         margin-top: 20px;
        }
+       .items{
+       margin-top: 20px;
+        width: 300px;
+       }
+       .rrr{
+        margin-top: 60px;
+        margin-bottom: 40px;
+       }
+       .img-fluid{
+        height: 250px;
+       }
+     .eeee{
+      display: flex;
+      margin-left: 80%;
+     }
+     .eeee li{
+      padding-left: 8px;
+      text-decoration: none;
+      
+     }
+   
        
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
         <div class="container dashboard">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav me-auto mb-2 mb-lg-0">
@@ -33,11 +53,22 @@
                 <a class="nav-link active link-light" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link link-light" href="#">Login</a>
+                <a class="nav-link link-light" href="wrk4.html">Login</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link link-light" href="#">Register</a>
               </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle  link-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">shop product</a></li>
+                  <li><a class="dropdown-item" href="#">product details</a></li>
+                  <li><a class="dropdown-item" href="#">shopping cart</a></li>
+                </ul>
+              </li>
+            </ul>
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -97,12 +128,96 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 tt">
                <h4>Get In Touch!</h4>
+               <hr>
                <button class="btn btn-info www" type="submit"></button>
                <button class="btn btn-info www" type="submit"></button>
             </div>
           </div>
+          <div class="row">
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="../images/pexels-photo-16614544.png" class="card-img-top" alt="image1">
+                    <div class="card-body">
+                      <h5 class="card-title">ANJALY</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>            
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-info items">99 items in your cart</a>
+              </div>
+              <div class="col-lg-9">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <img src="../images/product5.png.webp" width="300px"  class="img-fluid" alt="product3">
+                        <div class="card-body">
+                        <h4 class="card-title"><a href="single-product.html">Man Office Bag</a></h4>
+                        <p class="card-text"><small class="text-muted">$580</small></p>
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <img src="../images/product5.png.webp" width="300px"  class="img-fluid" alt="product3">
+                        <div class="card-body">
+                        <h4 class="card-title"><a href="single-product.html">Man Office Bag</a></h4>
+                        <p class="card-text"><small class="text-muted">$580</small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <img src="../images/product5.png.webp" width="300px"  class="img-fluid" alt="product3">
+                        <div class="card-body">
+                        <h4 class="card-title"><a href="single-product.html">Man Office Bag</a></h4>
+                        <p class="card-text"><small class="text-muted">$580</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="row rrr">
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <img src="../images/product5.png.webp" width="300px"  class="img-fluid" alt="product3">
+                        <div class="card-body">
+                        <h4 class="card-title"><a href="single-product.html">Man Office Bag</a></h4>
+                        <p class="card-text"><small class="text-muted">$580</small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <img src="../images/product5.png.webp" width="300px"  class="img-fluid" alt="product3">
+                        <div class="card-body">
+                        <h4 class="card-title"><a href="single-product.html">Man Office Bag</a></h4>
+                        <p class="card-text"><small class="text-muted">$580</small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <img src="../images/product5.png.webp" width="300px"  class="img-fluid" alt="product3">
+                        <div class="card-body">
+                        <h4 class="card-title"><a href="single-product.html">Man Office Bag</a></h4>
+                        <p class="card-text"><small class="text-muted">$580</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <hr>
+            <ul class="eeee" type="none">
+              <Li><a href="login.html">Link1</a></Li>
+              <li><a href="k.html">Link2</a></li>
+              <li><a href="c.html">Link3</a></li>
+            </ul>
+       
+     
+         
+
         </div>
 
 
