@@ -59,9 +59,68 @@ img{
 .sunnyside a{
     text-decoration: none;
     color: white;
-    font-size: ;
+    font-size: 70px;
 }
 .WE{
     color: white;
-    
+    padding-top: -40px;
+}
+.WE img{
+   padding-top: -60px;
+}
+.jj{
+    padding-left: 15%;
+    padding-right: 10%;
+}
+.jj h1{
+    padding-top: 35%;
+    padding-bottom: 5%;
+    font-family: 'Fraunces', serif;
+    font-size: 46px;
+    font-weight: bold;
+}
+.jj p{
+    text-align: center;
+    text-align: left;
+    color: #86858B;
+    line-height: 1.5;
+    padding-bottom: 5%;
+}
+.jj a{
+    font-family: 'Fraunces', serif;
+    color: #23303B;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+}
+.ee{
+    padding-left: 15%;
+    padding-right: 10%;
+}
+.ee h1{
+    padding-top: 35%;
+    padding-bottom: 5%;
+    font-family: 'Fraunces', serif;
+    font-size: 46px;
+    font-weight: bold;
+}
+.ee p{
+    text-align: center;
+    text-align: left;
+    color: #86858B;
+    line-height: 1.5;
+    padding-bottom: 5%;
+}
+.ee a{
+    font-family: 'Fraunces', serif;
+    color: #23303B;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
 }
