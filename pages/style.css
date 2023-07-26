@@ -61,6 +61,13 @@ img{
     color: white;
     font-size: 70px;
 }
+.btn-underline{
+    position: relative;
+    background-color: rgb(238, 103, 103);
+}
+.btn-underline:hover{
+    transition: 0.25s;
+}
 .WE{
     color: white;
     padding-top: -40px;
@@ -97,7 +104,7 @@ img{
     position: relative;
 }
 .ee{
-    padding-left: 15%;
+    padding-left: 12%;
     padding-right: 10%;
 }
 .ee h1{
@@ -108,6 +115,7 @@ img{
     font-weight: bold;
 }
 .ee p{
+    margin-top: 30px;
     text-align: center;
     text-align: left;
     color: #86858B;
@@ -123,4 +131,61 @@ img{
     font-weight: 700;
     font-size: 16px;
     position: relative;
+}
+.centered h3{
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 36px;
+    margin-top: 20%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    color: #1F5449;
+}
+.centered p{
+    margin-top: -50%;
+    margin-left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.testimonial-container{
+    display: grid;
+}
+.eeee{
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.eeee img{
+    margin-left: 40%;
+   }
+.eeee p{
+  margin-top: 25%;
+  text-align: center;
+  margin-bottom: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
+}   
+.eeee h5{
+margin-left: 40%;
+font-family: 'Fraunces', serif;
+font-weight: 1000;
+}
+.eeee small{
+margin-left: 38%;
+text-align: center;
+}
+.client{
+    font-family: 'Fraunces', serif;
+    letter-spacing: .3rem;
+    font-size: 22px;
+    font-weight: 1500;
+    margin-left: 37%;
+    color:  #86858B;
+    margin-bottom: 30px;
+}
+.pics img{
+    display: flex;
+    width: 100%;
 }
