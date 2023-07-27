@@ -70,10 +70,16 @@ img{
 }
 .WE{
     color: white;
+    height: 800px;
     padding-top: -40px;
+    background-image: url(../images/image-header.jpg);
+    background-size: cover;
 }
 .WE img{
    padding-top: -60px;
+}
+.arrow{
+    margin-bottom: -90px;
 }
 .jj{
     padding-left: 15%;
@@ -180,6 +186,7 @@ text-align: center;
     font-family: 'Fraunces', serif;
     letter-spacing: .3rem;
     font-size: 22px;
+    width: 550px;
     font-weight: 1500;
     margin-left: 37%;
     color:  #86858B;
@@ -188,4 +195,37 @@ text-align: center;
 .pics img{
     display: flex;
     width: 100%;
+}
+.iii{
+    background: #90D4C5;
+    height: 350px;
+}
+.last{
+    text-align: center;
+    display: flex;
+    padding-bottom: 180px;
+    padding-left: 40%;
+}
+.last li{
+    
+    padding-left: 30px;
+    padding-top: 15%;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.last a{
+    color: #2B7463;
+    transition: color 0.2s ease;
+    text-decoration: none;
+}
+.last a:hover{
+    color: aliceblue;
+}
+.lst{
+    margin-top: -7%;
+    margin-left: 40%;
+}
+.lst img{
+    padding-left: 40px;
 }
