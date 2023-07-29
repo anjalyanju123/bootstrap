@@ -56,19 +56,9 @@ img{
 #link1{
     color:rgb(189, 24, 79)
 }
-.sunnyside{
-    text-decoration: none;
+.navbar-brand{
+    font-size: 40px;
     color: white;
-    font-size: 24px;
-    font-family: sans-serif;
-    font-weight: 900;
-}
-.btn-underline{
-    position: relative;
-    background-color: rgb(238, 103, 103);
-}
-.btn-underline:hover{
-    transition: 0.25s;
 }
 .WE{
     color: white;
@@ -76,11 +66,8 @@ img{
     background-image: url(../images/image-header.jpg);
     background-size: cover;
 }
-.nav{
-    padding-top: 40px;
-    padding-right: 40px;
-}
 .btn{
+    margin-top: 33px;
     color: black;
     background-color: white;
     padding: 10px 20px;
@@ -92,7 +79,6 @@ img{
 .btn:hover{
     color: white;
     background-color: rgba(255, 255, 255, 0);
-    transition: all 0.2s ease;
 }
 .WE a{
     padding-right: 35px;
@@ -142,7 +128,13 @@ img{
     letter-spacing: 1px;
     font-weight: 700;
     font-size: 16px;
-    position: relative;
+    background-color: rgb(238, 103, 103);
+    height: 10px;
+    transition: width  0.25s;
+}
+.jj a:hover{
+    background-color: yellow;
+    height: 20px;
 }
 .ee{
     padding-left: 12%;
@@ -172,6 +164,13 @@ img{
     font-weight: 700;
     font-size: 16px;
     position: relative;
+    background-color: rgb(238, 103, 103);
+    height: 10px;
+    transition: width  0.25s;
+}
+.ee a:hover{
+    background-color: yellow;
+    height: 20px;
 }
 .centered h3{
     text-align: center;
@@ -263,4 +262,8 @@ text-align: center;
 }
 .lst img{
     padding-left: 40px;
+}
+.nav-item .nav-link{
+    color: white;
+    padding-top: 40px;
 }
