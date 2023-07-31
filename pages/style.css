@@ -56,10 +56,6 @@ img{
 #link1{
     color:rgb(189, 24, 79)
 }
-.navbar-brand{
-    font-size: 40px;
-    color: white;
-}
 .WE{
     color: white;
     height: 850px;
@@ -67,13 +63,14 @@ img{
     background-size: cover;
 }
 .btn{
-    margin-top: 33px;
+    margin-top: 43px;
     color: black;
     background-color: white;
     padding: 10px 20px;
     border-radius: 35px;
     border-width: 0px;
     font-size: 14px;
+    font-weight: 900;
     transition: all 0.2s ease;
 }
 .btn:hover{
@@ -96,7 +93,7 @@ img{
     font-weight: 900;
     font-size: 56px;
     padding-left: 30%;
-    padding-top: 19%;
+    padding-top: 17%;
 }
 .WE img{
    padding-left: 50%;
@@ -265,5 +262,10 @@ text-align: center;
 }
 .nav-item .nav-link{
     color: white;
-    padding-top: 40px;
+    padding-top: 50px;
+    margin-right: 45px;
+}
+.WE .navbar-brand{
+    font-size: 25px;
+    padding-left: 47px;
 }

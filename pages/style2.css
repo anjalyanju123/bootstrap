@@ -1,0 +1,17 @@
+.sidebar{
+    margin-top: 20px;
+    margin-left: 4px;
+    background-color: #CC6733;
+    color: white;
+    width: 360px;
+    height: 350px;
+    text-align: center;
+}
+.sidebar img {
+   
+}
+.sidebar h1{
+     font-weight: 380;
+     letter-spacing: 2px;
+     line-height: 1.1;
+}
