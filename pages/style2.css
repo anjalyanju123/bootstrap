@@ -1,17 +1,80 @@
 .sidebar{
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 4px;
     background-color: #CC6733;
     color: white;
     width: 360px;
-    height: 350px;
+    height: 310px;
     text-align: center;
+    position: fixed;
 }
 .sidebar img {
-   
+   padding-top: 40px;
+}
+.sidebar p{
+    font-size: 25px;
+    font-weight: 100;
+    color: #FECB99;
 }
 .sidebar h1{
+     margin-top: 10px;
+     font-size: 60px;
      font-weight: 380;
      letter-spacing: 2px;
      line-height: 1.1;
+}
+.sidenav{
+    position: fixed;
+    display: block;
+}
+.first{
+    margin-top: 20px;
+}
+.image1{
+    margin-left: 80%;
+}
+.image2{
+    margin-left: 32%;
+}
+.image3{
+    margin-left: -16%;
+}
+.image4{
+    margin-top: -130px;
+  margin-left: 80%;
+}
+.image5{
+    margin-top: -280px;
+    margin-left: 32%;
+}
+.image6{
+    margin-top: 10px;
+    margin-left: -16%;
+}
+.image7{
+    margin-left: 32%;
+}
+.image8{
+    margin-top: 10px;
+    margin-left: 80%;
+}
+.image9{
+    margin-top: -115px;
+    margin-left: 32%;
+}
+.image10{
+    margin-top: 10px;
+    margin-left: -16%;
+}
+.image11{
+    margin-top: -4px;
+    margin-left: 80%;
+}
+.image12{
+    margin-top: 10px;
+    margin-left: 32%;
+}
+.image13{
+    margin-top: -6px;
+    margin-left: -16%;
 }
