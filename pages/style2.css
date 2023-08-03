@@ -24,8 +24,121 @@
      line-height: 1.1;
 }
 .sidenav{
+    margin-top: 20%;
+    margin-left: 4px;
+    background-color: rgb(240, 240, 240);
+    width: 360px;
+    height: 370px;
+    text-align: center;
     position: fixed;
-    display: block;
+}
+.gallery{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+.gallery a{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 80;
+}
+.gallery:hover{
+    color: #CC6733;
+    background-color: #fff;
+    border-color: #CC6733;
+}
+.gallery a:hover{
+    color: #CC6733;
+    background-color: #fff;
+    border-color: #CC6733;
+}
+.timeline{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+.timeline a{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 80;
+    transition: color 0.2s ease;
+}
+.timeline :hover{
+    color: #CC6733;
+}
+.timeline:hover{
+    color: #CC6733;
+    background-color: #fff;
+    border-color: #CC6733;
+}
+.timeline a:hover{
+    color: #CC6733;
+    background-color: #fff;
+    border-color: #CC6733;
+}
+.about{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+.about a{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 80;
+}
+.about:hover{
+    color: #CC6733;
+    background-color: #fff;
+    border-color: #CC6733;
+}
+.about a:hover{
+    color: #CC6733;
+    background-color: #fff;
+    border-color: #CC6733;
+}
+.contact{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+.contact a{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 80;
+}
+.contact:hover{
+    color: #CC6733;
+    background-color: #fff;
+    border-color: #CC6733;
+}
+.contact a:hover{
+    color: #CC6733;
+    background-color: #fff;
+    border-color: #CC6733;
 }
 .first{
     margin-top: 20px;
@@ -77,4 +190,21 @@
 .image13{
     margin-top: -6px;
     margin-left: -16%;
+}
+.image14{
+    margin-top: 10px;
+    margin-left: 80%;
+}
+.image15{
+    margin-top: -255px;
+    margin-left: 32%;
+}
+.image16{
+    margin-top: 10px;
+    margin-left: -16%;
+}
+.yy p{
+    margin-top: 10%;
+    text-align: end;
+   color: #666;
 }
