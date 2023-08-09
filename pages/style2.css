@@ -1,25 +1,48 @@
-@media (min-width:320) and (max-width:450){
-.sidebar{
-    margin-top: 0px;
-    display: block;
-    margin-left: 4px;
-    background-color: #CC6733;
-    color: white;
-    width: 360px;
-    height: 310px;
-    text-align: center;
-}
-.sidebar img {
-    padding-top: 40px;
- }
- .sidebar p{
-     font-size: 25px;
-     font-weight: 100;
-     color: #FECB99;
-     
- }
+@media(min-width:900px){
+    .jk{
+        /* margin-top: 500px; */
+        position: fixed;
+        top: 0%;
+    }
+    .vk{
+        margin-left: 400px;
+    }
 
 }
+@media(max-width:450px){
+.vk img{
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.card{
+    width: 50%;
+}
+.card-body{
+    
+}
+.card h4{
+    width: 100%;
+}
+.card img{
+    text-align: center;
+    width: 900px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.card-text{
+    margin-bottom: 20px;
+    text-align: justify;
+    width: 350px;
+    height: 500px;
+}
+.card button{
+    margin-top: -100px;
+}
+}
 .sidebar{
     margin-top: 0px;
     display: block;
@@ -29,7 +52,6 @@
     width: 360px;
     height: 310px;
     text-align: center;
-    position: fixed;
 }
 .sidebar img {
    padding-top: 40px;
@@ -47,14 +69,13 @@
      line-height: 1.1;
 }
 .sidenav{
-    margin-top: 21%;
+    margin-top: 3%;
     display: block;
     margin-left: 4px;
     background-color: rgb(240, 240, 240);
     width: 360px;
     height: 370px;
     text-align: center;
-    position: fixed;
 }
 .btn{
     margin-top: 20px;
