@@ -17,30 +17,20 @@
     margin-top: 10px;
     margin-left: 20px;
 }
-.card{
-    width: 50%;
-}
-.card-body{
-    
-}
 .card h4{
-    width: 100%;
+    margin-left: 30px;
 }
 .card img{
-    text-align: center;
-    width: 900px;
-    height: 300px;
-    margin-top: 10px;
-    margin-left: 20px;
-}
-.card-text{
-    margin-bottom: 20px;
-    text-align: justify;
     width: 350px;
-    height: 500px;
+    height: 400px;
+    margin-left: 30px;
 }
-.card button{
-    margin-top: -100px;
+.card-body{
+    width: 400px;
+    margin-bottom: 30%;
+}
+.jjk{
+    padding-left: 50px;
 }
 }
 .sidebar{
@@ -122,7 +112,7 @@
     margin-left: -48%;
 }
 .image7{
-    margin-left: -20%;
+    margin-left: -19%;
 }
 .image8{
     margin-top: 10px;
@@ -182,22 +172,41 @@
     color: #666;
 }
 .card{
-    margin-top: 20px;
-    margin-right: 20%;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+.card img{
+    height: 299px;
+    width: 299px;
+}
+
+.card button{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+} 
+.card-title{
+    color: #0966CC;
+    font-weight: 400;
 }
 .card h4{
     background-color: palevioletred;
     color: white;
+    width: 299px;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 20px;
     font-weight: 100;
     margin-bottom: -10px;
 }
-.card-title{
-    color: #0966CC;
-    font-weight: 400;
+.card-body{
+    margin-left: -90px;
+    background-color:  rgb(240, 240, 240);
+    height: 357px;
+    padding-top: 50px;
+    padding-left: 50px;
 }
 .card-text{
     margin-top: 20px;
@@ -205,20 +214,6 @@
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 18px;
     font-weight: 180;
-}
-.card-body{
-    padding-top: 50px;
-    padding-left: 50px;
-    width: 860px;
-    height: 357px;
-    background-color:  rgb(240, 240, 240);
-}
-.card button{
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    border-radius: 10px;
 }
 .card a{
     text-decoration: none;
@@ -255,6 +250,6 @@ background-color: #349999;
 .card #b4{
     background-color: #666666;
 }
-.card #b4 a:hover{
+.row1 #b4 a:hover{
     background-color: #666666;
 }
