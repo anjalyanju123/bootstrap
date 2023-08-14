@@ -9,7 +9,7 @@
     }
 
 }
-@media(max-width:450px){
+@media (max-width:450px) {
 .vk img{
     text-align: center;
     width: 350px;
@@ -24,13 +24,6 @@
     width: 350px;
     height: 400px;
     margin-left: 30px;
-}
-.card-body{
-    width: 400px;
-    margin-bottom: 30%;
-}
-.jjk{
-    padding-left: 50px;
 }
 }
 .sidebar{
@@ -201,9 +194,10 @@
     font-weight: 100;
     margin-bottom: -10px;
 }
-.card-body{
-    margin-left: -90px;
+.jjk{
     background-color:  rgb(240, 240, 240);
+    margin-left: -90px;
+    width: 870px;
     height: 357px;
     padding-top: 50px;
     padding-left: 50px;
@@ -250,6 +244,19 @@ background-color: #349999;
 .card #b4{
     background-color: #666666;
 }
-.row1 #b4 a:hover{
+.card #b4 a:hover{
     background-color: #666666;
+}
+@media (max-width:450px) {
+    .jjk{
+        width: 300px;
+        height: 600px;
+        margin-left: 30px;
+        
+    }
+  .jjk .card-body{
+        width: 290px; 
+        margin-left: -35px;
+    }
+    
 }
